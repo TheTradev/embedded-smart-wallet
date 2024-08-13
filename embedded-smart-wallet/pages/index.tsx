@@ -11,6 +11,7 @@ import styles from "../styles/Home.module.css";
 import { NextPage } from "next";
 import { editionDropAddress } from "../const";
 
+
 const Home: NextPage = () => {
   const address = useAddress();
   const { contract } = useContract(editionDropAddress);
